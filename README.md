@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Colour Association Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Since this app is built with headless WordPress, this is the frontend part of the application built using **REACT** with Typescript. I used ReactQuery for querying data, apollo for generating types from WordPress GraphQL api.
 
-## Available Scripts
+## Headless WordPress?
 
-In the project directory, you can run:
+WordPress is a Content Management System (CMS). That really explains everything about what it is. You can manage your pages from there, creating your posts for your blog etc.
 
-### `yarn start`
+WordPress is usually used as both Backend and Frontend. It is build with PHP so you build everything in PHP.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Here comes the headless
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+WordPress has evolved in years to a powerful tool. You can now use it **only as a Backend** and pull your data from it via API. And you can use whatever you want as a frontend. That is basically what _headless_ means.
 
-### `yarn test`
+I work with WordPress and React separately all the time, that is why I used headless WP, I wanted to merge these two skills together.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I hope you liked my introduction guys :\* (Honza here sending kisses)
 
-### `yarn build`
+## Local setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You will need to have nodejs and npm (or other package managers as yarn) downloaded if u don't have them now. [Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is the guide on how to do it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Write this in the root directory of the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run start
+```
 
-### `yarn eject`
+or with yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+and as this is just a frontend part and our backend is already running on a server, you should be good to go!
