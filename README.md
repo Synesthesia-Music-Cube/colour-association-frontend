@@ -20,16 +20,18 @@ I hope you liked my introduction guys :\* (Honza here sending kisses)
 
 You will need to have nodejs and npm (or other package managers as yarn) downloaded if u don't have them now. [Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is the guide on how to do it.
 
-Write this in the root directory of the project
+Write following in the root directory of the project:
+
+Download the project dependencies
+
+```
+npm i
+```
+
+Run your project
 
 ```
 npm run start
 ```
 
-or with yarn
-
-```
-yarn start
-```
-
-and as this is just a frontend part and our backend is already running on a server, you should be good to go!
+and as this is just a frontend part and our backend is already running on a server, you should be good to go on **localhost:3000**!
