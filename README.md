@@ -20,7 +20,7 @@ I hope you liked my introduction guys :\* (Honza here sending kisses)
 
 You will need to have nodejs and npm (or other package managers as yarn) downloaded if u don't have them now. [Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is the guide on how to do it.
 
-Write following in the root directory of the project:
+Write following to the console in the root directory of the project:
 
 Download the project dependencies
 
