@@ -6,7 +6,7 @@ Since this app is built with headless WordPress, this is the frontend part of th
 
 WordPress is a Content Management System (CMS). That really explains everything about what it is. You can manage your pages from there, creating your posts for your blog etc.
 
-WordPress is usually used as both Backend and Frontend. It is build with PHP so you build everything in PHP.
+WordPress is usually used as both Backend and Frontend. It is built in PHP so you build everything in it.
 
 ### Here comes the headless
 
